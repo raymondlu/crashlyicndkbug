@@ -1,6 +1,17 @@
-Hello JNI Callback, a sample add to demonstrate the issue with the native crash reports debug symbols missing.
-App has a crash button will calls some C code which results in a intentional nullpointer(needed to showcase the native reports bug)
+Hello JNI Callback, 
+
 ==================
+
+A sample add to demonstrate the issue with the native crash reports debug symbols missing.
+App has a crash button will calls some C code which results in a intentional nullpointer(needed to showcase the native reports bug)
+
+Make sure you update the google-services.json to point to your console project in order for the native crashes to get reported.
+
+=================
+
+The initial Hello JNI sample readme below if you're interested. 
+
+
 This sample is an add-on to Hello JNI sample to demonstrate calling back to Java from C code
 - create a java class instance from C code
 - call java class static and non-static member functions
